@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Demo Trading Dashboard</title>
+  <title>Revolut</title>
   <style>
     * {
       margin: 0;
@@ -33,7 +33,7 @@
       color: #38bdf8;
     }
 
-    .demo-badge {
+    Revolut badge {
       background: #22c55e;
       color: black;
       padding: 6px 14px;
@@ -181,12 +181,12 @@
 
   <div class="topbar">
     <div class="logo">TradeFlow X</div>
-    <div class="demo-badge">DEMO</div>
+    
   </div>
 
   <div class="card">
     <p>Total Portfolio Value</p>
-    <div class="balance">$842,540.77</div>
+    <div class="balance">$13,540.77</div>
     <div class="profit">+18.42% This Month</div>
 
     <div class="chart">
@@ -222,8 +222,7 @@
   </div>
 
   <div class="note">
-    Fictional demo trading dashboard for entertainment purposes only.
-  </div>
+   Revolut dashboard  </div>
 
   <div class="popup" id="popup">
     <div class="popup-box" id="popupContent"></div>
@@ -236,8 +235,8 @@
     function showWithdraw() {
       popup.style.display = 'flex';
       popupContent.innerHTML = `
-        <h2>Withdrawal Simulation</h2>
-        <p>This is a fictional demo dashboard. Withdrawals are disabled in demo mode.</p>
+        <h2>Withdrawal</h2>
+        <p>Load card to withdraw .</p>
         <button class="close-btn" onclick="closePopup()">Close</button>
       `;
     }
@@ -245,8 +244,8 @@
     function showDeposit() {
       popup.style.display = 'flex';
       popupContent.innerHTML = `
-        <h2>Demo Deposit</h2>
-        <p>This is a simulated trading interface for entertainment and design practice only.</p>
+        <h2>Deposit</h2>
+        <p>wait.. .</p>
         <button class="close-btn" onclick="closePopup()">Close</button>
       `;
     }
